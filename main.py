@@ -42,11 +42,9 @@ if __name__ =="__main__":
     inputs = read_input_file(args.input_file)
 
     if validate_user_input(args.input_file):
-        # Multi_Label_Classification_of_Pubmed_Articles(args.input_file, )
         model_id = "DAfromsky/Multi-Label-Classification-PubMed-Articles"
         api_token = "hf_XXXXX"
         for input_text in inputs:
-            # payload = {"inputs": input_text}
             payload = input_text
             data = query(payload, model_id, api_token)
             print(data)
