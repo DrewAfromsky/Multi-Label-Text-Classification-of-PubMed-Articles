@@ -1,0 +1,14 @@
+not_for_github/
+
+# Logs
+logs
+*.log
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+.cache
+.cache/
