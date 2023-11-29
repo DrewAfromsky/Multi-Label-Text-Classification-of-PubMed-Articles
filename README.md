@@ -60,7 +60,7 @@
 - **Pipelined Model-Parallelism:**
     * Put each layer of the model on each GPU
     * Need to tune the amount of pipelining on the batch size to the exact degree of how you will split up the model on the GPU.
-* **Tensor-Parallelism
+* **Tensor-Parallelism**
     * Matrices can be distributed over multiple GPUs
 
 ##### Appendix
